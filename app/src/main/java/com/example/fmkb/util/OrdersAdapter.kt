@@ -1,4 +1,4 @@
-package com.example.fmkb
+package com.example.fmkb.util
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -8,6 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.fmkb.R
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 

@@ -1,4 +1,4 @@
-package com.example.fmkb
+package com.example.fmkb.fragment
 
 import android.graphics.Bitmap
 import android.os.Bundle
@@ -14,6 +14,8 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import com.example.fmkb.viewModel.OrderViewModel
+import com.example.fmkb.R
 
 class OrderDetailsFragment : Fragment() {
 

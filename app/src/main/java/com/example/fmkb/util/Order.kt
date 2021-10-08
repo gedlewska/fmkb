@@ -1,4 +1,4 @@
-package com.example.fmkb
+package com.example.fmkb.util
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

@@ -1,4 +1,4 @@
-package com.example.fmkb
+package com.example.fmkb.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,6 +12,9 @@ import androidx.fragment.app.commit
 import androidx.fragment.app.replace
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.fmkb.*
+import com.example.fmkb.util.*
+import com.example.fmkb.viewModel.OrderViewModel
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class MainFragment : Fragment(), OrderClickInterface {

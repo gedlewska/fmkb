@@ -1,5 +1,6 @@
-package com.example.fmkb
+package com.example.fmkb.api
 
+import com.example.fmkb.util.Order
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

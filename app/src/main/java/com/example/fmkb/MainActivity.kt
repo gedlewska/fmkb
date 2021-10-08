@@ -6,6 +6,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.add
 import androidx.fragment.app.commit
 import androidx.lifecycle.ViewModelProvider
+import com.example.fmkb.fragment.MainFragment
+import com.example.fmkb.fragment.OrderDetailsFragment
+import com.example.fmkb.viewModel.OrderViewModel
+import com.example.fmkb.viewModel.OrderViewModelFactory
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package com.example.fmkb
+package com.example.fmkb.util
 
 import java.util.regex.Matcher
 import java.util.regex.Pattern

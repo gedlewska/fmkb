@@ -1,6 +1,8 @@
-package com.example.fmkb
+package com.example.fmkb.viewModel
 
 import androidx.lifecycle.*
+import com.example.fmkb.util.Order
+import com.example.fmkb.util.OrderRepository
 import kotlinx.coroutines.*
 
 class OrderViewModel(private val repository: OrderRepository) : ViewModel() {
