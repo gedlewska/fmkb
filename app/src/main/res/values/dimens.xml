@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_mini">3dp</dimen>
+    <dimen name="dimen_default">5dp</dimen>
+
+    <dimen name="margin">20dp</dimen>
+
+    <dimen name="text_mini">11sp</dimen>
+    <dimen name="text_default">18sp</dimen>
+    <dimen name="text_big">20sp</dimen>
+</resources>

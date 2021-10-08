@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen_default"
+    android:padding="@dimen/dimen_mini"
+    app:cardBackgroundColor="@color/blue_500"
+    app:cardCornerRadius="@dimen/dimen_default"
+    app:cardElevation="@dimen/dimen_mini">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_mini">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_mini"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_default"
+            tool:text="@string/label_order" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTitle"
+            android:padding="@dimen/dimen_mini"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_mini"
+            tool:text="@string/label_order" />
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDescription"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/label_image"
+            android:padding="@dimen/dimen_mini"
+            tool:src="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivImage"
+            android:padding="@dimen/dimen_mini"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_mini"
+            tool:text="@string/label_updated_at" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
